@@ -22,34 +22,34 @@ export default function Home() {
         <Exchanges />
         <div className="max-w-[85rem] mx-auto mt-24">
           <span className="flex items-center">
-            <span className="h-[3px] flex-1 bg-duis"></span>
+            <span className="h-[3px] flex-1 bg-bitty"></span>
             <div>
               <Image
                 className=""
                 src="/collection/5.png"
                 width={300}
                 height={300}
-                alt="dui-5"
+                alt="bitty-5"
               />
             </div>
-            <span className="h-[3px] flex-1 bg-duis"></span>
+            <span className="h-[3px] flex-1 bg-bitty"></span>
           </span>
         </div>
 
         <Tokenomics />
         <div className="max-w-[85rem] mx-auto mt-24">
           <span className="flex items-center">
-            <span className="h-[3px] flex-1 bg-duis"></span>
+            <span className="h-[3px] flex-1 bg-bitty"></span>
             <div>
               <Image
                 className=""
                 src="/collection/7.png"
                 width={300}
                 height={300}
-                alt="dui-7"
+                alt="bitty-7"
               />
             </div>
-            <span className="h-[3px] flex-1 bg-duis"></span>
+            <span className="h-[3px] flex-1 bg-bitty"></span>
           </span>
         </div>
 
@@ -61,21 +61,21 @@ export default function Home() {
               src="/collection/6.png"
               width={300}
               height={300}
-              alt="dui-6"
+              alt="bitty-6"
             />
             <Image
               className=""
               src="/collection/8.png"
               width={300}
               height={300}
-              alt="dui-8"
+              alt="bitty-8"
             />
           </div>
           <div className="mt-5">
-            <p className="font-stopbuck text-2xl text-black">Woof! Woof!</p>
+            <p className="font-stopbuck text-2xl text-black">Bitcoin to the moon! 🧡</p>
           </div>
         </div>
-        {/* <WallOfLove /> */}
+        <WallOfLove />
         <Footer />
       </div>
     </>

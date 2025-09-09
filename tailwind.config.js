@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        duis: "#eac837",
+        bitty: "#eac837",
       },
       fontFamily: {
         stopbuck: ["Stopbuck", "sans-serif"],

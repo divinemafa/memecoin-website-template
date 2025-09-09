@@ -3,12 +3,12 @@ import LinkCardCircle from "@/components/LinkCardCircle";
 
 const cards = [
   {
-    link: "https://t.me/duis_solana",
+    link: "https://t.me/bitty_solana",
     title: "telegram",
     icon: "Telegram",
   },
   {
-    link: "https://x.com/duisonsolana",
+    link: "https://x.com/bittyonsolana",
     title: "x",
     icon: "X",
   },
@@ -38,7 +38,7 @@ const Socials = () => {
   return (
     <div>
       <div className="hidden">
-        <h2 className="font-stopbuck text-6xl text-duis text-shadow text-center">
+        <h2 className="font-stopbuck text-6xl text-bitty text-shadow text-center">
           Socials
         </h2>
       </div>

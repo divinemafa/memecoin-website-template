@@ -13,11 +13,11 @@ const Footer = () => {
         </div>
         <div>
           <p className="text-md/relaxed text-gray-500">
-            © &nbsp; <span className="text-duis text-shadow">DUIS</span>{" "}
-            community 2024.
+            © &nbsp; <span className="text-bitty text-shadow">BITTY</span>{" "}
+            community 2025.
             <br />
-            <span className="underline decoration-duis">
-              {"All cutes reserved for duis's dawgs."}
+            <span className="underline decoration-bitty">
+              {"All rights reserved for TIANTAcreative."}
             </span>
           </p>
           <p className="text-black mt-4 px-3 text-base sm:text-lg md:text-2xl opacity-30 break-words">
@@ -25,7 +25,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div class="overflow-hidden relative h-24">
+      <div className="overflow-hidden relative h-24">
         <img className="absolute bottom-0 w-full" src="grass.svg" alt="grass" />
       </div>
 

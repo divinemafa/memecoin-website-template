@@ -6,11 +6,11 @@ const HowToBuy = () => {
   return (
     <div id="buy" className="max-w-[85rem] mx-auto p-12">
       <div className="my-16">
-        <h2 className="font-stopbuck text-6xl text-duis text-shadow text-center">
+        <h2 className="font-stopbuck text-6xl text-bitty text-shadow text-center">
           How To Buy
         </h2>
         <h3 className="font-stopbuck text-2xl text-center text-black">
-          {`Just 4️⃣ steps to get rich 🤑`}
+          {`Join the Bitty Bitcoin community! �`}
         </h3>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-36 justify-items-center">
@@ -50,21 +50,21 @@ const HowToBuy = () => {
             it to your wallet.
           </span>
         </OrderCard>
-        <OrderCard order={3} title={"swap $Sol for $duis"} style={"-rotate-1"}>
+        <OrderCard order={3} title={"swap $Sol for $bitty"} style={"-rotate-1"}>
           <span>
             Paste the token address (CA) into wallet and swap{" "}
             <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] inline-block text-transparent bg-clip-text uppercase font-extrabold text-2xl">
               $SOL
             </span>{" "}
-            for <span className="font-extrabold text-2xl text-duis">$DUIS</span>
+            for <span className="font-extrabold text-2xl text-bitty">$bitty</span>
             .{`There's zero taxes so you don’t need to worry.`}
           </span>
         </OrderCard>
-        <OrderCard order={4} title={"you're duis-dawg!‍"} style={"rotate-2"}>
+        <OrderCard order={4} title={"you're bitty-Cat!‍"} style={"rotate-2"}>
           <span>
             Welcome to the <br />
-            <span className="uppercase font-extrabold text-2xl underline decoration-duis">
-              Duis family
+            <span className="uppercase font-extrabold text-2xl underline decoration-bitty">
+              bitty family
             </span>
             !
           </span>

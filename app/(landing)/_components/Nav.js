@@ -4,11 +4,11 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 const navigation = [
-  { name: "About", href: "#about" },
-  { name: "Exchanges", href: "#exchanges" },
+  { name: "About Bitty", href: "#about" },
+  { name: "Meme Gallery", href: "#memes" },
   { name: "Tokenomics", href: "#tokenomics" },
   { name: "How to buy", href: "#buy" },
-  // { name: "Wall of love", href: "#love" },
+  { name: "Community", href: "#community" },
 ];
 
 const Nav = () => {
@@ -55,7 +55,7 @@ const Nav = () => {
             <a
               key={item.name}
               href={item.href}
-              className={`transition duration-200 text-gray-900 text-shadow-duis-not-hover text-2xl font-bold font-stopbuck tracking-wider hover:text-duis hover:decoration-solid hover:decoration-gray-500`}
+              className={`transition duration-200 text-gray-900 text-shadow-bitty-not-hover text-2xl font-bold font-stopbuck tracking-wider hover:text-bitty hover:decoration-solid hover:decoration-gray-500`}
             >
               {item.name}
             </a>
@@ -65,11 +65,12 @@ const Nav = () => {
         {/* Buy Button */}
         <div className="lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="https://dexscreener.com/solana/8j5r6kteet9cm6wamq2mwb2sneu97cz1jtksdg76moon"
+            href="https://dexscreener.com/solana/FHXjd7u2TsTcfiiAkxTi3VwDm6wBCcdnw9SBF37GGfEg"
             target="_blank"
-            className="transition duration-200 font-stopbuck text-lg sm:text-2xl rounded-xl px-3.5 py-2.5 font-medium text-duis shadow-2xl bg-black hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0"
+            className="transition duration-200 font-stopbuck text-lg sm:text-2xl rounded-xl px-3.5 py-2.5 font-medium text-bitty shadow-2xl bg-black hover:bg-bitty hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0"
           >
-            Buy $DUIS
+            Buy $BITTY
+
           </a>
         </div>
       </div>

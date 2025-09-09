@@ -42,7 +42,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## ❤️ Support This Project
 If you find this template useful, consider donating to help maintain and improve it:
 
-Solana Wallet Address:
-`665NQSovQNvT5k7wYVx5WZATQyoMqjhC8JWWmPTsSeq2`
+FHXjd7u2TsTcfiiAkxTi3VwDm6wBCcdnw9SBF37GGfEg
 
 Any contributions are greatly appreciated! 🙏
