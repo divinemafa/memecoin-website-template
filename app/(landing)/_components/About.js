@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { getAssetPath } from "../../../lib/utils";
 
 const About = () => {
   return (
@@ -40,7 +39,7 @@ const About = () => {
           <div className="">
             <Image
               className="h-full object-cover"
-              src={getAssetPath("/collection/9.png")}
+              src="collection/9.png"
               width={700}
               height={700}
               alt="Bitty - Bitcoin Mascot"

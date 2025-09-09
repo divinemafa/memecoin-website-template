@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { getAssetPath } from "../../lib/utils";
 
 import Header from "./_components/Header";
 import Nav from "./_components/Nav";
@@ -27,7 +26,7 @@ export default function Home() {
             <div>
               <Image
                 className=""
-                src={getAssetPath("/collection/5.png")}
+                src="collection/5.png"
                 width={300}
                 height={300}
                 alt="bitty-5"
@@ -44,7 +43,7 @@ export default function Home() {
             <div>
               <Image
                 className=""
-                src={getAssetPath("/collection/7.png")}
+                src="collection/7.png"
                 width={300}
                 height={300}
                 alt="bitty-7"
@@ -59,14 +58,14 @@ export default function Home() {
           <div className="flex justify-center">
             <Image
               className="hidden md:block"
-              src={getAssetPath("/collection/6.png")}
+              src="collection/6.png"
               width={300}
               height={300}
               alt="bitty-6"
             />
             <Image
               className=""
-              src={getAssetPath("/collection/8.png")}
+              src="collection/8.png"
               width={300}
               height={300}
               alt="bitty-8"

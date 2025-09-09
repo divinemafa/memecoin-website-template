@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { getAssetPath } from "../../../lib/utils";
 
 const navigation = [
   { name: "About Bitty", href: "#about" },
@@ -39,7 +38,7 @@ const Nav = () => {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <Image
-              src={getAssetPath("/logo-coin.png")}
+              src="logo-coin.png"
               width={500}
               height={500}
               className={`transition-all duration-300 ${

@@ -1,25 +1,24 @@
 import React from "react";
 import Card from "@/components/Card";
-import { getAssetPath } from "../../../lib/utils";
 
 const cards = [
   {
-    img: getAssetPath("/max-supply.gif"),
+    img: "max-supply.gif",
     title: "Max Supply",
     desc: "1,000,000,000",
   },
   {
-    img: getAssetPath("/tax.gif"),
+    img: "tax.gif",
     title: "Tax",
     desc: "0%",
   },
   {
-    img: getAssetPath("/burn.gif"),
+    img: "burn.gif",
     title: "Liquidity",
     desc: "Burnt",
   },
   {
-    img: getAssetPath("/solana.gif"),
+    img: "solana.gif",
     title: "Network",
     desc: "Bitcoin",
   },
