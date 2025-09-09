@@ -4,22 +4,22 @@ import { getAssetPath } from "../../../lib/utils";
 
 const cards = [
   {
-    img: "max-supply.gif",
+    img: getAssetPath("/max-supply.gif"),
     title: "Max Supply",
     desc: "1,000,000,000",
   },
   {
-    img: "tax.gif",
+    img: getAssetPath("/tax.gif"),
     title: "Tax",
     desc: "0%",
   },
   {
-    img: "burn.gif",
+    img: getAssetPath("/burn.gif"),
     title: "Liquidity",
     desc: "Burnt",
   },
   {
-    img: "solana.gif",
+    img: getAssetPath("/solana.gif"),
     title: "Network",
     desc: "Bitcoin",
   },
