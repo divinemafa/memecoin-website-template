@@ -5,9 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // Handle GitHub Pages subdirectory - will be automatically configured by actions/configure-pages
-  basePath: process.env.GITHUB_ACTIONS ? '' : '',
-  assetPrefix: process.env.GITHUB_ACTIONS ? '' : '',
+  // Handle GitHub Pages subdirectory
+  basePath: process.env.NODE_ENV === 'production' ? '/memecoin-website-template' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/memecoin-website-template/' : '',
 };
 
 export default nextConfig;
