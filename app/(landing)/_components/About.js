@@ -62,7 +62,7 @@ const About = () => {
                 complex crypto concepts simple and joyful for everyone.
               </p>
               <p className="indent-12 mt-3">
-                From diamond hands to "number go up" technology, Bitty captures 
+                From diamond hands to &ldquo;number go up&rdquo; technology, Bitty captures 
                 the essence of Bitcoin culture while educating the masses about 
                 sound money and the orange pill.
               </p>
@@ -74,7 +74,7 @@ const About = () => {
           <p>
             Today 🚀, <span className="text-3xl font-bold">Bitty</span>{" "}
             continues the mission on{" "}
-            <span className="italic font-semibold">Bitcoin's timechain</span>,
+            <span className="italic font-semibold">Bitcoin&rsquo;s timechain</span>,
             spreading memes and orange-pilling the world! 
           </p>
           <p className="text-4xl p-10">

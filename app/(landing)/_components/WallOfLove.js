@@ -48,7 +48,7 @@ const WallOfLove = () => {
             <div className="p-6 text-center">
               <div className="text-6xl mb-4"><Youtube /></div>
               <h4 className="font-stopbuck text-2xl text-black mb-4">Watch Videos</h4>
-              <p className="font-mono text-gray-700 mb-4">Learn Bitcoin basics with Bitty's guides</p>
+              <p className="font-mono text-gray-700 mb-4">Learn Bitcoin basics with Bitty&rsquo;s guides</p>
               <a href="#" target="_blank" className="bg-bitty text-black font-stopbuck px-6 py-2 rounded-lg hover:bg-yellow-500 transition-colors">
                 Subscribe
               </a>

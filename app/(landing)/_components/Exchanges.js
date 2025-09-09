@@ -42,7 +42,7 @@ const Exchanges = () => {
           Meme Gallery
         </h2>
         <h3 className="font-stopbuck text-2xl text-center text-black">
-          Bitty's Bitcoin Meme Collection �
+          Bitty&rsquo;s Bitcoin Meme Collection 🎨
         </h3>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">

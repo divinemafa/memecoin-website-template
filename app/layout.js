@@ -12,3 +12,6 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+// Force static generation for all pages
+export const dynamic = 'force-static';
