@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Socials from "./Socials";
+import { getAssetPath } from "../../../lib/utils";
 
 import { contractAddress } from "@/constants";
 
@@ -35,7 +36,7 @@ const Footer = () => {
             <div>
               <Image
                 className=""
-                src="/collection/1.png"
+                src={getAssetPath("/collection/1.png")}
                 width={200}
                 height={200}
                 alt="dui 1"
@@ -44,7 +45,7 @@ const Footer = () => {
             <div>
               <Image
                 className=""
-                src="/collection/2.png"
+                src={getAssetPath("/collection/2.png")}
                 width={200}
                 height={200}
                 alt="dui 2"
@@ -55,7 +56,7 @@ const Footer = () => {
             <div>
               <Image
                 className=""
-                src="/collection/4.png"
+                src={getAssetPath("/collection/4.png")}
                 width={200}
                 height={200}
                 alt="dui 4"
@@ -64,7 +65,7 @@ const Footer = () => {
             <div>
               <Image
                 className=""
-                src="/collection/3.png"
+                src={getAssetPath("/collection/3.png")}
                 width={200}
                 height={200}
                 alt="dui 3"

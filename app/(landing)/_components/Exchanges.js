@@ -1,34 +1,35 @@
 import React from "react";
 import Image from "next/image";
+import { getAssetPath } from "../../../lib/utils";
 
 const memeGallery = [
   {
-    image: "/collection/1.png",
+    image: getAssetPath("/collection/1.png"),
     title: "Diamond Hands Bitty",
     description: "When you're down 50% but still hodling strong 💎🙌",
   },
   {
-    image: "/collection/2.png", 
+    image: getAssetPath("/collection/2.png"), 
     title: "Orange Pill Bitty",
     description: "Spreading the Bitcoin gospel, one meme at a time 🧡",
   },
   {
-    image: "/collection/3.png",
+    image: getAssetPath("/collection/3.png"),
     title: "Number Go Up Bitty", 
     description: "That feeling when Bitcoin hits a new ATH 🚀",
   },
   {
-    image: "/collection/4.png",
+    image: getAssetPath("/collection/4.png"),
     title: "Stacking Sats Bitty",
     description: "Every sat counts in the journey to financial freedom ⚡",
   },
   {
-    image: "/collection/6.png",
+    image: getAssetPath("/collection/6.png"),
     title: "HODL Mode Bitty",
     description: "Not selling until we reach the moon 🌙",
   },
   {
-    image: "/collection/8.png",
+    image: getAssetPath("/collection/8.png"),
     title: "Bitcoin Maximalist Bitty",
     description: "There is no second best. Bitcoin only! 🟠",
   },
@@ -52,7 +53,7 @@ const Exchanges = () => {
             <div className="relative h-full transform rounded-xl border-2 border-black bg-white transition-transform -translate-x-2 -translate-y-2 group-hover:translate-x-0 group-hover:translate-y-0">
               <div className="p-4">
                 <Image
-                  src={meme.image}
+                  src={getAssetPath(meme.image)}
                   width={300}
                   height={300}
                   alt={meme.title}

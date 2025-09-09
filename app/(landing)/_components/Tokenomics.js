@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "@/components/Card";
+import { getAssetPath } from "../../../lib/utils";
 
 const cards = [
   {

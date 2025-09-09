@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { getAssetPath } from "../lib/utils";
 
 const Card = ({ props: { img, title, desc } }) => {
   return (
@@ -10,7 +11,7 @@ const Card = ({ props: { img, title, desc } }) => {
         <div className="h-full transition-opacity grid grid-rows-4">
           <div className="row-span-3 flex justify-center items-center border-b-2 rounded-b-xl border-black">
             <Image
-              src={`/${img}`}
+              src={getAssetPath(`/${img}`)}
               alt={title}
               width={500}
               height={500}
